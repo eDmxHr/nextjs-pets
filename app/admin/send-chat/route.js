@@ -18,7 +18,7 @@ export async function POST(request) {
       appId: process.env.PUSHERID,
       key: process.env.PUSHERKEY,
       secret: process.env.PUSHERSECRET,
-      cluster: "us3",
+      cluster: "us2",
       useTLS: true
     })
 
